@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 1101932661}
   - component: {fileID: 1101932660}
   - component: {fileID: 1101932659}
+  - component: {fileID: 1101932663}
   m_Layer: 0
   m_Name: "\u602A\u7269\u4E8C\u865F"
   m_TagString: Untagged
@@ -306,6 +307,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1101932663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101932658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cee308e8e5ee64d892aa0631606148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "\u8840\u91CF": 0
+  "\u9B54\u529B": 100
+  "\u79FB\u52D5\u901F\u5EA6": 10.5
+  "\u653B\u64CA\u529B": 50
+  "\u9632\u79A6\u529B": 0
+  "\u6B66\u5668\u540D\u7A31": 
+  "\u88DD\u5099\u540D\u7A31": "\u76AE\u8863"
+  "\u662F\u5426\u5E36\u6709\u9470\u5319": 0
+  "\u662F\u5426\u6389\u843D\u5BF6\u7269": 0
 --- !u!1 &1203776566
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,8 +357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7288f8c99623aab47a0deb2e2443c81d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy1: {fileID: 0}
-  Enemy2: {fileID: 0}
+  Enemy1: {fileID: 1487379858}
+  Enemy2: {fileID: 1101932663}
 --- !u!4 &1203776568
 Transform:
   m_ObjectHideFlags: 0
@@ -363,6 +385,7 @@ GameObject:
   - component: {fileID: 1487379856}
   - component: {fileID: 1487379855}
   - component: {fileID: 1487379854}
+  - component: {fileID: 1487379858}
   m_Layer: 0
   m_Name: "\u602A\u7269\u4E00\u865F"
   m_TagString: Untagged
@@ -444,6 +467,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1487379858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487379853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cee308e8e5ee64d892aa0631606148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "\u8840\u91CF": 0
+  "\u9B54\u529B": 100
+  "\u79FB\u52D5\u901F\u5EA6": 10.5
+  "\u653B\u64CA\u529B": 50
+  "\u9632\u79A6\u529B": 0
+  "\u6B66\u5668\u540D\u7A31": 
+  "\u88DD\u5099\u540D\u7A31": "\u76AE\u8863"
+  "\u662F\u5426\u5E36\u6709\u9470\u5319": 0
+  "\u662F\u5426\u6389\u843D\u5BF6\u7269": 0
 --- !u!1 &1706227696
 GameObject:
   m_ObjectHideFlags: 0
